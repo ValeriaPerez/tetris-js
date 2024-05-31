@@ -2,6 +2,7 @@
   "name": "tetris-js",
   "description": "Tetris game in JavaScript",
   "main": "index.html",
+  "homepage": "https://valeriaperez.github.io/tetris-js/",
   "author": {
     "name": "Valeria Pérez Jaimes",
     "email": "valeria.pjaimes@gmail.com"
@@ -12,7 +13,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "standard": "17.1.0",
