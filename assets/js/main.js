@@ -1,3 +1,4 @@
+import { initAudio, muted } from '../audio/music'
 import {
   BLOCK_SIZE,
   BOARD_HEIGHT,
@@ -6,7 +7,6 @@ import {
   EVENT_KEYS,
   PIECES
 } from '../utils'
-import { initAudio, muted } from './audio'
 
 // 1. Iniciando canvas
 const canvas = document.querySelector('canvas')
@@ -168,8 +168,8 @@ const $buttonMuted = document.getElementById('idMuted')
 
 $button.addEventListener('click', () => {
   $section.remove()
-  update()
   initAudio()
+  update()
 })
 
 $buttonMuted.addEventListener('click', () => {
