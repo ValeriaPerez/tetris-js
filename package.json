@@ -1,12 +1,12 @@
 {
   "name": "tetris-js",
   "description": "Tetris game in JavaScript",
-  "main": "index.js",
+  "main": "index.html",
   "author": {
-    "name": "Valeria Pérez",
+    "name": "Valeria Pérez Jaimes",
     "email": "valeria.pjaimes@gmail.com"
   },
-  "private": true,
+  "private": false,
   "version": "0.1.0",
   "type": "module",
   "scripts": {

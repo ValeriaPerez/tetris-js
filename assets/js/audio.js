@@ -1,7 +1,7 @@
-const audio = new window.Audio('../assets/tetris.mp3')
+const audio = new window.Audio('../assets/audio/tetris.mp3')
 
 function initAudio () {
-  audio.volume = 0
+  audio.volume = 0.1
   audio.play()
 }
 

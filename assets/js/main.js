@@ -1,4 +1,4 @@
-import { initAudio, muted } from './scripts/audio'
+import { initAudio, muted } from './audio'
 import {
   BLOCK_SIZE,
   BOARD_HEIGHT,
@@ -6,8 +6,8 @@ import {
   BOARD,
   EVENT_KEYS,
   PIECES
-} from './utils'
-import './style.css'
+} from '../utils'
+import '../css/style.css'
 
 // 1. Iniciando canvas
 const canvas = document.querySelector('canvas')
